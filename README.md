@@ -11,13 +11,15 @@ Why do we have to write asynchronous code?
 
 Why is it a good thing that we get to?
 
-### Non-Blocking
-
-Read and run `node ./callbacks/non-blocking.js`
+Read and run `node ./callbacks/wtf.js`
 
 ### Passing a Callback is Not Returning Something
 
 Read and run `node ./callbacks/noob.js`
+
+### Non-Blocking
+
+Read and run `node ./callbacks/non-blocking.js`
 
 ### Sequential Requests
 
@@ -154,3 +156,5 @@ use it there either because `babel-polyfill` adds some overhead.
 ### Icing
 
 #### Throttling
+
+Read and run `node ./icing/throttling.js`

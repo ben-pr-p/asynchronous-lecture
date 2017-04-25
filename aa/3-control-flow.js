@@ -51,10 +51,10 @@ const noobMainWithPromises = () => new Promise((resolve, reject) => {
 })
 
 
-Promise.all(new Array(10).fill(null).map(chainedMainWithPromises))
-.then(console.log)
-.catch(console.error)
-
-Promise.all(new Array(10).fill(null).map(noobMainWithPromises))
-.then(console.log)
-.catch(console.error)
+// Promise.all(new Array(10).fill(null).map(chainedMainWithPromises))
+// .then(console.log)
+// .catch(console.error)
+//
+// Promise.all(new Array(10).fill(null).map(noobMainWithPromises))
+// .then(console.log)
+// .catch(console.error)

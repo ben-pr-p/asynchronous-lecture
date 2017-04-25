@@ -3,5 +3,9 @@ const goodFn = bluebird.promisify(require('../generate-async-fn')(1 * 1000, 'hel
 const badFn = bluebird.promisify(require('../generate-async-fn')(1 * 1000, 'hello', true))
 
 // Produces a syntax error
-const result = await goodFn()
-console.log(result)
+async function main () {
+  const result = await goodFn()
+  console.log(result)
+}
+
+main()

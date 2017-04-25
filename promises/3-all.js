@@ -7,10 +7,7 @@ const promisify = fn => new Promise((resolve, reject) => {
   fn((err, val) => err ? reject(err) : resolve(val))
 })
 
-Promise.all([
-  promisify(sayOne),
-  promisify(sayTwo)
-])
+Promise.all([ promisify(sayOne), promisify(sayTwo) ])
 .then(console.log)
 .catch(console.log)
 

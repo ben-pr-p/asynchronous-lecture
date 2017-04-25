@@ -18,4 +18,6 @@ promisify(sayOne)
 })
 .catch(err => {
   // handle error
+  console.log('Got error')
+  console.log(err)
 })

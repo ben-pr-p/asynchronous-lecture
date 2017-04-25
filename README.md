@@ -16,7 +16,14 @@ sudo npm i -g n
 n latest
 ```
 
+Then,
+```
+git clone https://github.com/ben-pr-p/asynchronous-lecture.git
+cd asynchronous-lecture
+npm install
+```
 
+Now you can run the code samples!
 
 ## Callbacks (errbacks)
 

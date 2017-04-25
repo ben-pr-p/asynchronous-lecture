@@ -1,0 +1,24 @@
+{
+  "name": "asynchronous-lecture",
+  "version": "1.0.0",
+  "description": "Code samples for a lecture on different ways to handle Javascript's asynchronousness",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.3.0",
+    "bluebird": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-pr-p/asynchronous-lecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-pr-p/asynchronous-lecture/issues"
+  },
+  "homepage": "https://github.com/ben-pr-p/asynchronous-lecture#readme"
+}

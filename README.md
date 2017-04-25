@@ -15,6 +15,10 @@ Why is it a good thing that we get to?
 
 Read and run `node ./callbacks/non-blocking.js`
 
+### Passing a Callback is Not Returning Something
+
+Read and run `node ./callbacks/noob.js`
+
 ### Sequential Requests
 
 Read and run `node ./callbacks/sequential.js`
@@ -53,6 +57,10 @@ Read and run `node ./promises/all.js`
 
 Read and run `node ./promises/resolve.js`
 
+### Creating a Promise vs. Resolving a Promise
+
+Read and run `node ./promises/creating-vs-resolving.js`
+
 ### Promise implementations
 
 Depending on your Javascript environment, you may or may not need to specify
@@ -73,9 +81,11 @@ Read and run `node ./aa/wrong.js`
 
 ### Why Async / Await?
 
-#### Error handling
+Read and run `node ./aa/control-flow.js`
 
 #### While Loop Pagination
+
+Read and run `node ./aa/while-loop-pagination.js`
 
 ### Gotchas
 
@@ -140,3 +150,7 @@ Read and run `node ./aa/gotcha-for-each-vs-for-of.js`
 If you're running an older Node version, you can use `babel-node` which I personally
 don't like, and if you need to keep your build size down on the client you shouldn't
 use it there either because `babel-polyfill` adds some overhead.
+
+### Icing
+
+#### Throttling

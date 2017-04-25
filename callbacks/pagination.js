@@ -1,7 +1,6 @@
 const async = require('async')
 const generateAsyncFn = require('../generate-async-fn')
 
-const numPages = 10
 const nextPage = (currentPage, fn) => {
   if (currentPage < 10) generateAsyncFn(1 * 1000, currentPage + 1)(fn)
   else fn(null, null)

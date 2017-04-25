@@ -1,7 +1,22 @@
 # asynchronous-lecture
+
 Code samples for a lecture on different ways to handle Javascript's asynchronousness
 
 # Roadmap
+
+Starting off
+
+```
+node -v
+```
+
+If it's not 7+,
+```
+sudo npm i -g n
+n latest
+```
+
+
 
 ## Callbacks (errbacks)
 
